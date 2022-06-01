@@ -22,7 +22,7 @@ jobs:
   
       - uses: actions/upload-artifact@master
         with:
-    needs: build
+          needs: build
           path: public/
   test:
     needs: build
